@@ -3,11 +3,12 @@ using  namespace std;
 map<int, int> m;
 int main(){
     freopen("sticks.in", "r", stdin);
-    int t, n; cin >> t;
+    int t, n, x; 
+    cin >> t;
     while(t--){
         cin >> n;
         while(n--){
-            int x; cin >> x;
+            cin >> x;
             m[x]++;
         }
         int ans = 0, c = 0;
