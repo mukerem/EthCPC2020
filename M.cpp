@@ -2,7 +2,7 @@
 using  namespace std;
 
 int main(){
-    //freopen("sample.in", "r", stdin);
+    freopen("sample.in", "r", stdin);
     int n, m;
     cin >> n >> m;
     char arr[501][501];
