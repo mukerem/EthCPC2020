@@ -2,7 +2,7 @@
 using  namespace std;
 map<int, int> m;
 int main(){
-    //freopen("sticks.in", "r", stdin);
+    freopen("sticks.in", "r", stdin);
     int t, n; cin >> t;
     while(t--){
         cin >> n;
